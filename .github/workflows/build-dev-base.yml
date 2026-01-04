@@ -2,7 +2,7 @@ name: Build Dev-Base Images
 
 on:
   push:
-    branches: ['**']
+    branches: ['dev']
     paths:
       # Backend dependency triggers
       - 'backend/api-gateway/*.csproj'

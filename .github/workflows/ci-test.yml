@@ -2,9 +2,9 @@ name: CI - Test Backend Services
 
 on:
   push:
-    branches: ['**']
+    branches: ['dev']
   pull_request:
-    branches: [main, develop]
+    branches: ['dev']
 
 jobs:
   test:
