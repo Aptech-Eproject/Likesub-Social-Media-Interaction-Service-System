@@ -8,7 +8,7 @@ public static class HealthCheckEndpoints
     public static IEndpointRouteBuilder MapHealthCheckEndpoints(this IEndpointRouteBuilder app)
     {
         app.MapGet("/health", () => Results.Ok(new { status = "healthy", service = "api-gateway" }));
-        app.MapHealthChecks("/health/services", new HealthCheckOptions
+        app.MapHealthChecks("/health/check", new HealthCheckOptions
         {
             ResponseWriter = async (context, report) =>
             {
@@ -26,6 +26,7 @@ public static class HealthCheckEndpoints
                 await context.Response.WriteAsync(result);
             }
         });
+
         return app;
     }
 }
