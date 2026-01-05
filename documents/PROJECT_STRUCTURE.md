@@ -5,7 +5,7 @@
 Project sử dụng kiến trúc **Microservices** với:
 - **Backend**: .NET 8 (ASP.NET Core)
 - **Frontend**: Next.js 15 (React, TypeScript)
-- **Database**: MySQL 8.0
+- **Database**: SQL Server
 - **Cache**: Redis 7
 - **Container**: Docker + Docker Compose
 - **CI/CD**: GitHub Actions
@@ -66,10 +66,10 @@ backend/
 
 **Port**: 8001
 
-**Database**: `user_db` (MySQL)
+**Database**: `SNMS_UserDB` (SQL Server)
 
 **Dependencies**:
-- Pomelo.EntityFrameworkCore.MySql
+- Microsoft.EntityFrameworkCore.SqlServer
 - Microsoft.AspNetCore.Authentication.JwtBearer
 - BCrypt.Net-Next
 
@@ -91,12 +91,12 @@ backend/
 
 **Port**: 8002
 
-**Database**: `social_db` (MySQL)
+**Database**: `SNMS_SocialDB` (SQL Server)
 
 **Cache**: Redis
 
 **Dependencies**:
-- Pomelo.EntityFrameworkCore.MySql
+- Microsoft.EntityFrameworkCore.SqlServer
 - StackExchange.Redis
 
 **APIs**:
@@ -200,7 +200,6 @@ container/
 - API Gateway (port 8000)
 - User Service (port 8001)
 - Social Service (port 8002)
-- MySQL (port 3306)
 - Redis (port 6379)
 
 **docker-compose.prod.yml**:
@@ -326,7 +325,7 @@ Project overview, quick start guide
 
 ## 🗄️ Database Schema
 
-### **user_db** (User Service)
+### **SNMS_UserDB** (User Service)
 ```sql
 users
 ├── id (PK)
@@ -337,7 +336,7 @@ users
 └── updated_at
 ```
 
-### **social_db** (Social Service)
+### **SNMS_SocialDB** (Social Service)
 ```sql
 posts
 ├── id (PK)
@@ -380,17 +379,17 @@ ASPNETCORE_URLS=http://+:8000
 ```env
 ASPNETCORE_ENVIRONMENT=Development
 ASPNETCORE_URLS=http://+:8001
-ConnectionStrings__DefaultConnection=Server=mysql;Database=user_db;...
-JWT__Secret=your-secret-key
-JWT__Issuer=user-service
-JWT__Audience=api-gateway
+CONNECTION_STRING=Server=your-sql-server,1433;Database=SNMS_UserDB;...
+JWT_SECRET_KEY=your-secret-key
+JWT_ISSUER=snms-api-gateway
+JWT_AUDIENCE=snms-services
 ```
 
 ### **Social Service** (`.env`)
 ```env
 ASPNETCORE_ENVIRONMENT=Development
 ASPNETCORE_URLS=http://+:8002
-ConnectionStrings__DefaultConnection=Server=mysql;Database=social_db;...
+CONNECTION_STRING=Server=your-sql-server,1433;Database=SNMS_SocialDB;...
 Redis__ConnectionString=redis:6379
 ```
 
@@ -543,18 +542,16 @@ dotnet ef database update
 - 8000 - API Gateway
 - 8001 - User Service
 - 8002 - Social Service
-- 3306 - MySQL
 - 6379 - Redis
 
 ### **Databases**
-- `user_db` - User data
-- `social_db` - Social data
+- `SNMS_UserDB` - User data (SQL Server - External)
+- `SNMS_SocialDB` - Social data (SQL Server - External)
 
 ### **Networks**
 - `snms-network` - Docker bridge
 
 ### **Volumes**
-- `mysql-data` - MySQL persistence
 - `redis-data` - Redis persistence
 
 ---
