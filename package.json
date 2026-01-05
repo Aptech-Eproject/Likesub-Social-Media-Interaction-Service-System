@@ -30,10 +30,6 @@
     "dev:log:mysql": "docker compose -p snms -f container/compose/docker-compose.dev.yml logs -f mysql",
     "dev:log:redis": "docker compose -p snms -f container/compose/docker-compose.dev.yml logs -f redis",
     
-    "//": "********************* DATABASE *********************",
-    "dev:db:reset": "docker compose -p snms -f container/compose/docker-compose.dev.yml down -v && docker compose -p snms -f container/compose/docker-compose.dev.yml up -d mysql",
-    "dev:db:backup": "docker exec snms-mysql-dev mysqldump -uroot -p --all-databases > backup_$(date +%Y%m%d_%H%M%S).sql",
-    
     "//": "********************* FRONTEND (HOST) *********************",
     "frontend:dev": "cd frontend && npm run dev",
     "frontend:build": "cd frontend && npm run build",
