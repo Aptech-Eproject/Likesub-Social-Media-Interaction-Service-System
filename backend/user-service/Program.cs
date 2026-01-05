@@ -40,7 +40,7 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast")
 .WithOpenApi();
-app.MapGet("/health", () => "Social Service is running...");
+app.MapGet("/health", () => "User Service is running...");
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)

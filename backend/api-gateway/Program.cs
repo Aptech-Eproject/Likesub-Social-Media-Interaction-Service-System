@@ -15,5 +15,5 @@ var app = builder.Build();
 app.UseRateLimiter();
 app.MapHealthCheckEndpoints();
 app.MapReverseProxy();
-app.MapGet("/", () => "API-Gateway is running");
+app.MapGet("/health", () => "API-Gateway is running");
 app.Run();
