@@ -7,9 +7,16 @@ public static class HealthCheckConfiguration
         var userServiceUrl = configuration["ServiceUrls:UserService"];
         var socialServiceUrl = configuration["ServiceUrls:SocialService"];
 
-        services.AddHealthChecks()
-            .AddUrlGroup(new Uri($"{userServiceUrl}/health"), "user-service")
-            .AddUrlGroup(new Uri($"{socialServiceUrl}/health"), "social-service");
+        if (!string.IsNullOrEmpty(userServiceUrl) && !string.IsNullOrEmpty(socialServiceUrl))
+        {
+            services.AddHealthChecks()
+                .AddUrlGroup(new Uri($"{userServiceUrl}/health"), "user-service")
+                .AddUrlGroup(new Uri($"{socialServiceUrl}/health"), "social-service");
+        }
+        else
+        {
+            services.AddHealthChecks();
+        }
 
         return services;
     }
