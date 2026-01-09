@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/maaitlunghau/Documents/Projects/Social-network-service-management-system/frontend/src/components/shared/ScrollToTop.tsx"],"sourcesContent":["\"use client\";\n\nimport { useEffect } from \"react\";\n\nexport default function ScrollToTop() {\n    useEffect(() => {\n        window.scrollTo({ top: 0, behavior: \"smooth\" });\n    }, []);\n\n    return null;\n}"],"names":[],"mappings":";;;;AAEA;AAFA;;AAIe,SAAS;IACpB,IAAA,kNAAS,EAAC;QACN,OAAO,QAAQ,CAAC;YAAE,KAAK;YAAG,UAAU;QAAS;IACjD,GAAG,EAAE;IAEL,OAAO;AACX"}}]
+}
