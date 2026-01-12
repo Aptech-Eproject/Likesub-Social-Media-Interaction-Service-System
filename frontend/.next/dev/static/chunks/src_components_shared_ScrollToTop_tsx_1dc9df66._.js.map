@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/maaitlunghau/Documents/Projects/Likesub-Social-Media-Interaction-Service-System/frontend/src/components/shared/ScrollToTop.tsx"],"sourcesContent":["\"use client\";\n\nimport { useEffect } from \"react\";\n\nexport default function ScrollToTop() {\n    useEffect(() => {\n        window.scrollTo({ top: 0, behavior: \"smooth\" });\n    }, []);\n\n    return null;\n}"],"names":[],"mappings":";;;;;AAEA;;;AAFA;;AAIe,SAAS;;IACpB,IAAA,0KAAS;iCAAC;YACN,OAAO,QAAQ,CAAC;gBAAE,KAAK;gBAAG,UAAU;YAAS;QACjD;gCAAG,EAAE;IAEL,OAAO;AACX;GANwB;KAAA"}}]
+}

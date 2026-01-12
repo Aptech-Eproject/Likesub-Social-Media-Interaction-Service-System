@@ -1,0 +1,10 @@
+{
+  "[project]/node_modules/react-apexcharts/dist/react-apexcharts.esm.js [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/node_modules/react-apexcharts/dist/react-apexcharts.esm.js [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/node_modules_apexcharts_dist_apexcharts_esm_faea9786.js",
+      "static/chunks/node_modules_0087888b._.js",
+      "static/chunks/node_modules_react-apexcharts_dist_react-apexcharts_esm_c6e8f7b8.js"
+    ]
+  }
+}
