@@ -9,8 +9,6 @@ services:
       - ../../backend/api-gateway:/app
       - gateway_bin:/app/bin
       - gateway_obj:/app/obj
-    env_file:
-      - ../../backend/api-gateway/.env
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_URLS: http://+:8000
@@ -42,8 +40,6 @@ services:
       - ../../backend/user-service:/app
       - user_bin:/app/bin
       - user_obj:/app/obj
-    env_file:
-      - ../../backend/user-service/.env
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_URLS: http://+:8081
@@ -72,8 +68,6 @@ services:
       - ../../backend/social-service:/app
       - social_bin:/app/bin
       - social_obj:/app/obj
-    env_file:
-      - ../../backend/social-service/.env
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_URLS: http://+:8082

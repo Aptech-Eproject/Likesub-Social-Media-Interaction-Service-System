@@ -1,8 +1,5 @@
 using api_gateway.Configuration;
 using api_gateway.Extensions;
-using DotNetEnv;
-
-Env.Load();
 
 var builder = WebApplication.CreateBuilder(args);
 
