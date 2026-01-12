@@ -937,7 +937,7 @@ async function UserDetailLayout({ children, params }) {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$ScrollToTop$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                lineNumber: 38,
+                lineNumber: 36,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$layouts$2f$admin$2f$AdminSubHeader$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -946,7 +946,7 @@ async function UserDetailLayout({ children, params }) {
                 urlPrevTitle: urlPrevTitle
             }, void 0, false, {
                 fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                lineNumber: 41,
+                lineNumber: 39,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -965,12 +965,12 @@ async function UserDetailLayout({ children, params }) {
                                             children: "TC"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                            lineNumber: 55,
+                                            lineNumber: 53,
                                             columnNumber: 29
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                        lineNumber: 54,
+                                        lineNumber: 52,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -984,7 +984,7 @@ async function UserDetailLayout({ children, params }) {
                                                         children: "maaitlunghau"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                                        lineNumber: 62,
+                                                        lineNumber: 60,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -994,18 +994,18 @@ async function UserDetailLayout({ children, params }) {
                                                             children: "Hoạt động"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                                            lineNumber: 68,
+                                                            lineNumber: 66,
                                                             columnNumber: 37
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                                        lineNumber: 67,
+                                                        lineNumber: 65,
                                                         columnNumber: 33
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                                lineNumber: 60,
+                                                lineNumber: 58,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1018,7 +1018,7 @@ async function UserDetailLayout({ children, params }) {
                                                                 className: "w-3.5 h-3.5 text-gray-500"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                                                lineNumber: 77,
+                                                                lineNumber: 75,
                                                                 columnNumber: 37
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1029,7 +1029,7 @@ async function UserDetailLayout({ children, params }) {
                                                                         children: "ID:"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                                                        lineNumber: 80,
+                                                                        lineNumber: 78,
                                                                         columnNumber: 41
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1037,19 +1037,19 @@ async function UserDetailLayout({ children, params }) {
                                                                         children: "#48"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                                                        lineNumber: 83,
+                                                                        lineNumber: 81,
                                                                         columnNumber: 41
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                                                lineNumber: 79,
+                                                                lineNumber: 77,
                                                                 columnNumber: 37
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                                        lineNumber: 76,
+                                                        lineNumber: 74,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1059,7 +1059,7 @@ async function UserDetailLayout({ children, params }) {
                                                                 className: "w-3.5 h-3.5 text-gray-500"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                                                lineNumber: 91,
+                                                                lineNumber: 89,
                                                                 columnNumber: 37
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1070,7 +1070,7 @@ async function UserDetailLayout({ children, params }) {
                                                                         children: "Tham gia:"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                                                        lineNumber: 94,
+                                                                        lineNumber: 92,
                                                                         columnNumber: 41
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1078,53 +1078,53 @@ async function UserDetailLayout({ children, params }) {
                                                                         children: "16/12/2025"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                                                        lineNumber: 97,
+                                                                        lineNumber: 95,
                                                                         columnNumber: 41
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                                                lineNumber: 93,
+                                                                lineNumber: 91,
                                                                 columnNumber: 37
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                                        lineNumber: 90,
+                                                        lineNumber: 88,
                                                         columnNumber: 33
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                                lineNumber: 74,
+                                                lineNumber: 72,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                        lineNumber: 59,
+                                        lineNumber: 57,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                lineNumber: 52,
+                                lineNumber: 50,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$admin$2f$users$2f$UserDetailActions$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                lineNumber: 107,
+                                lineNumber: 105,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                        lineNumber: 50,
+                        lineNumber: 48,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$admin$2f$users$2f$StatisticUserDetailCards$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                        lineNumber: 111,
+                        lineNumber: 109,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1134,14 +1134,14 @@ async function UserDetailLayout({ children, params }) {
                                 id: id
                             }, void 0, false, {
                                 fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                lineNumber: 116,
+                                lineNumber: 114,
                                 columnNumber: 21
                             }, this),
                             children
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                        lineNumber: 114,
+                        lineNumber: 112,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1160,14 +1160,14 @@ async function UserDetailLayout({ children, params }) {
                                                         className: "w-1 h-6 bg-purple-200 rounded-full"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                                        lineNumber: 129,
+                                                        lineNumber: 127,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$history$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__History$3e$__["History"], {
                                                         className: "w-4 h-4 text-gray-700"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                                        lineNumber: 130,
+                                                        lineNumber: 128,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1175,13 +1175,13 @@ async function UserDetailLayout({ children, params }) {
                                                         children: "Nhật ký hoạt động gần nhất"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                                        lineNumber: 131,
+                                                        lineNumber: 129,
                                                         columnNumber: 33
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                                lineNumber: 128,
+                                                lineNumber: 126,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1191,38 +1191,38 @@ async function UserDetailLayout({ children, params }) {
                                                         className: "w-3 h-3"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                                        lineNumber: 136,
+                                                        lineNumber: 134,
                                                         columnNumber: 33
                                                     }, this),
                                                     "Xem tất cả"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                                lineNumber: 135,
+                                                lineNumber: 133,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                        lineNumber: 127,
+                                        lineNumber: 125,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "px-6 py-2 pb-4",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$admin$2f$users$2f$ActivityHistoryTable$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ActivityHistoryTable"], {}, void 0, false, {
                                             fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                            lineNumber: 143,
+                                            lineNumber: 141,
                                             columnNumber: 29
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                        lineNumber: 142,
+                                        lineNumber: 140,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                lineNumber: 125,
+                                lineNumber: 123,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1238,14 +1238,14 @@ async function UserDetailLayout({ children, params }) {
                                                         className: "w-1 h-6 bg-purple-200 rounded-full"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                                        lineNumber: 152,
+                                                        lineNumber: 150,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$badge$2d$cent$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__BadgeCent$3e$__["BadgeCent"], {
                                                         className: "w-4 h-4 text-gray-700"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                                        lineNumber: 153,
+                                                        lineNumber: 151,
                                                         columnNumber: 33
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1253,13 +1253,13 @@ async function UserDetailLayout({ children, params }) {
                                                         children: "Biến động số dư gần nhất"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                                        lineNumber: 154,
+                                                        lineNumber: 152,
                                                         columnNumber: 33
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                                lineNumber: 151,
+                                                lineNumber: 149,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1269,56 +1269,56 @@ async function UserDetailLayout({ children, params }) {
                                                         className: "w-3 h-3"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                                        lineNumber: 159,
+                                                        lineNumber: 157,
                                                         columnNumber: 33
                                                     }, this),
                                                     "Xem tất cả"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                                lineNumber: 158,
+                                                lineNumber: 156,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                        lineNumber: 150,
+                                        lineNumber: 148,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "px-6 py-2",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$admin$2f$users$2f$BalanceFluctuations$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BalanceFluctuations"], {}, void 0, false, {
                                             fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                            lineNumber: 166,
+                                            lineNumber: 164,
                                             columnNumber: 29
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                        lineNumber: 165,
+                                        lineNumber: 163,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                                lineNumber: 148,
+                                lineNumber: 146,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                        lineNumber: 123,
+                        lineNumber: 121,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-                lineNumber: 48,
+                lineNumber: 46,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/admin/users/[id]/layout.tsx",
-        lineNumber: 36,
+        lineNumber: 34,
         columnNumber: 9
     }, this);
 }

@@ -351,7 +351,7 @@ const AddPackagePage = () => {
                             </h3>
                             <div className="rounded-md bg-blue-50 border border-blue-200 m-6 flex flex-col justify-between h-38">
                                 <div className='flex items-center gap-2 text-blue-400 font-bold px-4 py-2'>
-                                    <Lightbulb className='w-4 h-4 text-blue-400' />
+                                    <Lightbulb />
                                     <span>
                                         Lưu ý quan trọng
                                     </span>

@@ -244,7 +244,7 @@ export default async function InvoiceDetail({ params }: LayoutProps) {
                                         </label>
                                         <textarea
                                             placeholder="Nhập ghi chú cho hóa đơn này (không bắt buộc)"
-                                            className="w-full px-4 py-3 border border-gray-200 rounded-md text-sm! font-medium placeholder:text-gray-400 resize-none"
+                                            className="w-full px-4 py-3 border border-gray-200 rounded-md text-sm! font-medium placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500 resize-none"
                                             rows={4}
                                         />
                                         <p className="text-xs text-gray-500 flex items-center gap-1">

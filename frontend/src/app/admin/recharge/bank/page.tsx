@@ -22,7 +22,13 @@ import { DatePicker } from "@/components/shared/ui/date-picker";
 import RechartBankTable from "@/components/admin/recharge-bank/RechartBankTable";
 import Summary from "@/components/admin/recharge-bank/Summary";
 
-function RechartBankPage() {
+async function getRechargeBankData() {
+    await new Promise((resolve) => setTimeout(resolve, 1200));
+    return { title: "Recharge Bank sData" };
+}
+
+async function RechartBankPage() {
+    const data = await getRechargeBankData();
     const titlePage = "Nạp tiền ngân hàng";
 
     return (
@@ -147,7 +153,7 @@ function RechartBankPage() {
                                             <SelectItem value="1000">1.000</SelectItem>
                                             <SelectItem value="5000">5000</SelectItem>
                                             <SelectItem value="10000">10.000</SelectItem>
-                                            <SelectItem value="15000">15.000</SelectItem>
+                                            <SelectItem value="12000">15.000</SelectItem>
                                             <SelectItem value="20000">20.000</SelectItem>
                                             <SelectItem value="30000">30.000</SelectItem>
                                             <SelectItem value="40000">40.000</SelectItem>

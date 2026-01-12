@@ -113,7 +113,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$ban$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Ban$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/ban.js [app-ssr] (ecmascript) <export default as Ban>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2d$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ShieldCheck$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/shield-check.js [app-ssr] (ecmascript) <export default as ShieldCheck>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$contexts$2f$shared$2f$SidebarContext$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/contexts/shared/SidebarContext.tsx [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
 "use client";
+;
 ;
 ;
 ;
@@ -127,7 +129,7 @@ const adminMenuItems = [
             size: 18
         }, void 0, false, {
             fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-            lineNumber: 39,
+            lineNumber: 40,
             columnNumber: 15
         }, ("TURBOPACK compile-time value", void 0)),
         path: "/admin/dashboard"
@@ -164,7 +166,7 @@ const adminMenuItems = [
             size: 18
         }, void 0, false, {
             fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-            lineNumber: 70,
+            lineNumber: 71,
             columnNumber: 15
         }, ("TURBOPACK compile-time value", void 0)),
         path: "/admin/addons/all"
@@ -175,7 +177,7 @@ const adminMenuItems = [
             size: 18
         }, void 0, false, {
             fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-            lineNumber: 75,
+            lineNumber: 76,
             columnNumber: 15
         }, ("TURBOPACK compile-time value", void 0)),
         path: "/admin/block-ip"
@@ -188,7 +190,7 @@ const adminServiceItems = [
             size: 18
         }, void 0, false, {
             fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-            lineNumber: 88,
+            lineNumber: 89,
             columnNumber: 15
         }, ("TURBOPACK compile-time value", void 0)),
         subItems: [
@@ -199,7 +201,7 @@ const adminServiceItems = [
                     size: 18
                 }, void 0, false, {
                     fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                    lineNumber: 93,
+                    lineNumber: 94,
                     columnNumber: 23
                 }, ("TURBOPACK compile-time value", void 0))
             },
@@ -210,7 +212,7 @@ const adminServiceItems = [
                     size: 18
                 }, void 0, false, {
                     fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                    lineNumber: 98,
+                    lineNumber: 99,
                     columnNumber: 23
                 }, ("TURBOPACK compile-time value", void 0))
             },
@@ -221,7 +223,7 @@ const adminServiceItems = [
                     size: 18
                 }, void 0, false, {
                     fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                    lineNumber: 103,
+                    lineNumber: 104,
                     columnNumber: 23
                 }, ("TURBOPACK compile-time value", void 0))
             }
@@ -235,7 +237,7 @@ const adminManagementsItems = [
             size: 18
         }, void 0, false, {
             fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-            lineNumber: 112,
+            lineNumber: 113,
             columnNumber: 15
         }, ("TURBOPACK compile-time value", void 0)),
         path: "/admin/users"
@@ -246,7 +248,7 @@ const adminManagementsItems = [
             size: 18
         }, void 0, false, {
             fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-            lineNumber: 117,
+            lineNumber: 118,
             columnNumber: 15
         }, ("TURBOPACK compile-time value", void 0)),
         path: "/admin/tickets"
@@ -257,7 +259,7 @@ const adminManagementsItems = [
             size: 18
         }, void 0, false, {
             fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-            lineNumber: 122,
+            lineNumber: 123,
             columnNumber: 15
         }, ("TURBOPACK compile-time value", void 0)),
         path: "/admin/roles"
@@ -268,7 +270,7 @@ const adminManagementsItems = [
             size: 18
         }, void 0, false, {
             fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-            lineNumber: 127,
+            lineNumber: 128,
             columnNumber: 15
         }, ("TURBOPACK compile-time value", void 0)),
         subItems: [
@@ -279,7 +281,7 @@ const adminManagementsItems = [
                     size: 18
                 }, void 0, false, {
                     fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                    lineNumber: 132,
+                    lineNumber: 133,
                     columnNumber: 23
                 }, ("TURBOPACK compile-time value", void 0))
             },
@@ -290,7 +292,7 @@ const adminManagementsItems = [
                     size: 18
                 }, void 0, false, {
                     fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                    lineNumber: 137,
+                    lineNumber: 138,
                     columnNumber: 23
                 }, ("TURBOPACK compile-time value", void 0))
             },
@@ -301,7 +303,7 @@ const adminManagementsItems = [
                     size: 18
                 }, void 0, false, {
                     fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                    lineNumber: 142,
+                    lineNumber: 143,
                     columnNumber: 23
                 }, ("TURBOPACK compile-time value", void 0))
             },
@@ -312,7 +314,7 @@ const adminManagementsItems = [
                     size: 18
                 }, void 0, false, {
                     fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                    lineNumber: 147,
+                    lineNumber: 148,
                     columnNumber: 23
                 }, ("TURBOPACK compile-time value", void 0))
             },
@@ -323,7 +325,7 @@ const adminManagementsItems = [
                     size: 18
                 }, void 0, false, {
                     fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                    lineNumber: 152,
+                    lineNumber: 153,
                     columnNumber: 23
                 }, ("TURBOPACK compile-time value", void 0))
             },
@@ -334,7 +336,7 @@ const adminManagementsItems = [
                     size: 18
                 }, void 0, false, {
                     fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                    lineNumber: 157,
+                    lineNumber: 158,
                     columnNumber: 23
                 }, ("TURBOPACK compile-time value", void 0))
             },
@@ -345,7 +347,7 @@ const adminManagementsItems = [
                     size: 18
                 }, void 0, false, {
                     fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                    lineNumber: 162,
+                    lineNumber: 163,
                     columnNumber: 23
                 }, ("TURBOPACK compile-time value", void 0))
             },
@@ -356,7 +358,7 @@ const adminManagementsItems = [
                     size: 18
                 }, void 0, false, {
                     fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                    lineNumber: 167,
+                    lineNumber: 168,
                     columnNumber: 23
                 }, ("TURBOPACK compile-time value", void 0))
             },
@@ -367,7 +369,7 @@ const adminManagementsItems = [
                     size: 18
                 }, void 0, false, {
                     fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                    lineNumber: 172,
+                    lineNumber: 173,
                     columnNumber: 23
                 }, ("TURBOPACK compile-time value", void 0))
             },
@@ -378,7 +380,7 @@ const adminManagementsItems = [
                     size: 18
                 }, void 0, false, {
                     fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                    lineNumber: 177,
+                    lineNumber: 178,
                     columnNumber: 23
                 }, ("TURBOPACK compile-time value", void 0))
             },
@@ -389,7 +391,7 @@ const adminManagementsItems = [
                     size: 18
                 }, void 0, false, {
                     fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                    lineNumber: 182,
+                    lineNumber: 183,
                     columnNumber: 23
                 }, ("TURBOPACK compile-time value", void 0))
             }
@@ -401,7 +403,7 @@ const adminManagementsItems = [
             size: 18
         }, void 0, false, {
             fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-            lineNumber: 188,
+            lineNumber: 189,
             columnNumber: 15
         }, ("TURBOPACK compile-time value", void 0)),
         subItems: [
@@ -412,7 +414,7 @@ const adminManagementsItems = [
                     size: 18
                 }, void 0, false, {
                     fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                    lineNumber: 193,
+                    lineNumber: 194,
                     columnNumber: 23
                 }, ("TURBOPACK compile-time value", void 0))
             },
@@ -423,7 +425,7 @@ const adminManagementsItems = [
                     size: 18
                 }, void 0, false, {
                     fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                    lineNumber: 198,
+                    lineNumber: 199,
                     columnNumber: 23
                 }, ("TURBOPACK compile-time value", void 0))
             }
@@ -435,7 +437,7 @@ const adminManagementsItems = [
             size: 18
         }, void 0, false, {
             fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-            lineNumber: 204,
+            lineNumber: 205,
             columnNumber: 15
         }, ("TURBOPACK compile-time value", void 0)),
         subItems: [
@@ -446,7 +448,7 @@ const adminManagementsItems = [
                     size: 18
                 }, void 0, false, {
                     fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                    lineNumber: 209,
+                    lineNumber: 210,
                     columnNumber: 23
                 }, ("TURBOPACK compile-time value", void 0))
             },
@@ -457,7 +459,7 @@ const adminManagementsItems = [
                     size: 18
                 }, void 0, false, {
                     fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                    lineNumber: 214,
+                    lineNumber: 215,
                     columnNumber: 23
                 }, ("TURBOPACK compile-time value", void 0))
             },
@@ -468,7 +470,7 @@ const adminManagementsItems = [
                     size: 18
                 }, void 0, false, {
                     fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                    lineNumber: 219,
+                    lineNumber: 220,
                     columnNumber: 23
                 }, ("TURBOPACK compile-time value", void 0))
             }
@@ -546,14 +548,14 @@ function AdminSidebar() {
                     children: [
                         nav.subItems ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             onClick: ()=>handleSubmenuToggle(index, menuType),
-                            className: `relative hover:bg-slate-800 flex items-center w-full gap-3 px-3 py-3 font-medium rounded-lg text-[16px]! group text-slate-300 cursor-pointer ${openSubmenu?.type === menuType && openSubmenu?.index === index ? "bg-slate-800 text-blue-400" : "text-slate-300 group-hover:text-slate-400"} cursor-pointer ${!isExpanded && !isHovered ? "justify-center" : "justify-start"}`,
+                            className: `relative hover:bg-slate-800 flex items-center w-full gap-3 px-3 py-3 font-normal rounded-lg text-[16px]!s group text-slate-300 cursor-pointer ${openSubmenu?.type === menuType && openSubmenu?.index === index ? "bg-slate-800 text-blue-400" : "text-slate-300 group-hover:text-slate-400"} cursor-pointer ${!isExpanded && !isHovered ? "justify-center" : "justify-start"}`,
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: `${openSubmenu?.type === menuType && openSubmenu?.index === index ? "text-blue-400" : "text-slate-300 group-hover:text-slate-400"}`,
                                     children: nav.icon
                                 }, void 0, false, {
                                     fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                                    lineNumber: 318,
+                                    lineNumber: 319,
                                     columnNumber: 33
                                 }, this),
                                 (isExpanded || isHovered) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -561,23 +563,23 @@ function AdminSidebar() {
                                     children: nav.name
                                 }, void 0, false, {
                                     fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                                    lineNumber: 327,
+                                    lineNumber: 328,
                                     columnNumber: 37
                                 }, this),
                                 (isExpanded || isHovered) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDownIcon$3e$__["ChevronDownIcon"], {
                                     className: `ml-auto w-5 h-5 transition-transform duration-200 ${openSubmenu?.type === menuType && openSubmenu?.index === index ? "rotate-180 text-blue-400" : ""}`
                                 }, void 0, false, {
                                     fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                                    lineNumber: 337,
+                                    lineNumber: 338,
                                     columnNumber: 37
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                            lineNumber: 308,
+                            lineNumber: 309,
                             columnNumber: 29
                         }, this) : nav.path && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            className: `hover:bg-slate-800! flex items-center w-full gap-3 px-3 py-3 font-medium rounded-lg text-md! group text-slate-300 cursor-pointer text-[16px]! 
+                            className: `hover:bg-slate-800! flex items-center w-full gap-3 px-3 py-3 font-normal rounded-lg text-[16px]! group text-slate-300 cursor-pointer 
                                         ${isActive(nav.path) ? "bg-slate-800" : ""}
                                     `,
                             href: nav.path,
@@ -587,7 +589,7 @@ function AdminSidebar() {
                                     children: nav.icon
                                 }, void 0, false, {
                                     fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                                    lineNumber: 357,
+                                    lineNumber: 358,
                                     columnNumber: 37
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -595,13 +597,13 @@ function AdminSidebar() {
                                     children: nav.name
                                 }, void 0, false, {
                                     fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                                    lineNumber: 363,
+                                    lineNumber: 364,
                                     columnNumber: 37
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                            lineNumber: 348,
+                            lineNumber: 349,
                             columnNumber: 33
                         }, this),
                         nav.subItems && (isExpanded || isHovered) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -625,54 +627,56 @@ function AdminSidebar() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                                            lineNumber: 390,
+                                            lineNumber: 391,
                                             columnNumber: 45
                                         }, this)
                                     }, subItem.name, false, {
                                         fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                                        lineNumber: 389,
+                                        lineNumber: 390,
                                         columnNumber: 41
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                                lineNumber: 387,
+                                lineNumber: 388,
                                 columnNumber: 33
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                            lineNumber: 375,
+                            lineNumber: 376,
                             columnNumber: 29
                         }, this)
                     ]
                 }, nav.name, true, {
                     fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                    lineNumber: 306,
+                    lineNumber: 307,
                     columnNumber: 21
                 }, this))
         }, void 0, false, {
             fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-            lineNumber: 304,
+            lineNumber: 305,
             columnNumber: 13
         }, this);
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("aside", {
-        className: "sticky mt-1 lg:mt-0 flex flex-col top-0 px-5 left-0 w-72! bg-[#0f172a] text-gray-900 border-r border-gray-200 h-screen transition-all duration-300 ease-in-out z-50",
+        className: "sticky mt-1 lg:mt-0 flex flex-col top-0 px-5 left-0 w-74! bg-[#0f172a] text-gray-900 border-r border-gray-200 h-screen transition-all duration-300 ease-in-out z-50",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                 href: "/",
-                className: "h-18 py-3 px-6 mb-4",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                className: "h-18 py-4.5 px-6 mb-4",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                     src: "/images/logo.png",
                     alt: "",
-                    className: "w-auto h-auto"
+                    className: "w-auto h-auto",
+                    width: 200,
+                    height: 50
                 }, void 0, false, {
                     fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                    lineNumber: 418,
+                    lineNumber: 419,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                lineNumber: 417,
+                lineNumber: 418,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -687,7 +691,7 @@ function AdminSidebar() {
                                 children: "MAIN"
                             }, void 0, false, {
                                 fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                                lineNumber: 430,
+                                lineNumber: 433,
                                 columnNumber: 25
                             }, this),
                             renderMenuItems(adminMenuItems, "main"),
@@ -696,7 +700,7 @@ function AdminSidebar() {
                                 children: "Dịch vụ"
                             }, void 0, false, {
                                 fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                                lineNumber: 437,
+                                lineNumber: 440,
                                 columnNumber: 25
                             }, this),
                             renderMenuItems(adminServiceItems, "services"),
@@ -705,30 +709,30 @@ function AdminSidebar() {
                                 children: "Quản lý"
                             }, void 0, false, {
                                 fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                                lineNumber: 444,
+                                lineNumber: 447,
                                 columnNumber: 25
                             }, this),
                             renderMenuItems(adminManagementsItems, "management")
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                        lineNumber: 428,
+                        lineNumber: 431,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                    lineNumber: 427,
+                    lineNumber: 430,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-                lineNumber: 426,
+                lineNumber: 429,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/layouts/admin/AdminSidebar.tsx",
-        lineNumber: 415,
+        lineNumber: 416,
         columnNumber: 9
     }, this);
 }
@@ -810,7 +814,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$ui$2f$dropdown$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/shared/ui/dropdown.tsx [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$ui$2f$dropdown$2d$item$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/shared/ui/dropdown-item.tsx [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
 "use client";
+;
 ;
 ;
 ;
@@ -834,19 +840,19 @@ function AdminDropdown() {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "mr-3 overflow-hidden rounded-full h-11 w-11",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                             width: 44,
                             height: 44,
-                            src: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                            src: "https://i.pinimg.com/736x/ec/6a/80/ec6a80f3565d3936d355036109f5fece.jpg",
                             alt: "User"
                         }, void 0, false, {
                             fileName: "[project]/src/components/admin/AdminDropdown.tsx",
-                            lineNumber: 29,
-                            columnNumber: 17
+                            lineNumber: 30,
+                            columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/admin/AdminDropdown.tsx",
-                        lineNumber: 28,
+                        lineNumber: 29,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -854,7 +860,7 @@ function AdminDropdown() {
                         children: "maaitlunghau"
                     }, void 0, false, {
                         fileName: "[project]/src/components/admin/AdminDropdown.tsx",
-                        lineNumber: 37,
+                        lineNumber: 38,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -873,17 +879,17 @@ function AdminDropdown() {
                         }, void 0, false, {
                             fileName: "[project]/src/components/admin/AdminDropdown.tsx",
                             lineNumber: 51,
-                            columnNumber: 17
+                            columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/admin/AdminDropdown.tsx",
-                        lineNumber: 41,
+                        lineNumber: 42,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/admin/AdminDropdown.tsx",
-                lineNumber: 24,
+                lineNumber: 25,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$ui$2f$dropdown$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1083,7 +1089,7 @@ function AdminDropdown() {
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/admin/AdminDropdown.tsx",
-        lineNumber: 22,
+        lineNumber: 23,
         columnNumber: 9
     }, this);
 }

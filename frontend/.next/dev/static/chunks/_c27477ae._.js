@@ -128,7 +128,7 @@ var _s = __turbopack_context__.k.signature();
 function EditRole() {
     var _this = this;
     _s();
-    var titlePage = "chỉnh sửa vai trò";
+    var titlePage = "chỉnh sửa role";
     var prevTitle = "danh sách vai trò";
     var urlPrevTitle = "/admin/roles";
     var _useState = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$swc$2f$helpers$2f$esm$2f$_sliced_to_array$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["_"])((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(''), 2), roleName = _useState[0], setRoleName = _useState[1];

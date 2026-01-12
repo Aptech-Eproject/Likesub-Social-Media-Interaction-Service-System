@@ -19,7 +19,7 @@ interface PermissionGroup {
 }
 
 function EditRole() {
-    const titlePage = "chỉnh sửa vai trò";
+    const titlePage = "chỉnh sửa role";
     const prevTitle = "danh sách vai trò";
     const urlPrevTitle = "/admin/roles";
 
