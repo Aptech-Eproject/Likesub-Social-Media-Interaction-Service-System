@@ -4,6 +4,7 @@ import { useState } from "react";
 
 import {
     Heart,
+    LoaderCircle,
     MessageCircle,
     Share2,
     TrendingUp
@@ -36,7 +37,7 @@ const MOCK_BLOG_POSTS: BlogPost[] = [
         },
         title: "Cập nhật tính năng mới - Tăng tốc độ xử lý đơn hàng",
         description:
-            "Chúng tôi vừa triển khai hệ thống xử lý đơn hàng mới giúp tăng tốc độ lên đến 3 lần so với trước. Giờ đây các đơn hàng của bạn sẽ được xử lý nhanh chóng và hiệu quả hơn...",
+            "Chúng tôi vừa triển khai hệ thống xử lý đơn hàng thế hệ mới, giúp tăng tốc độ xử lý lên đến 3 lần, giảm đáng kể tình trạng pending và lỗi giao dịch trong giờ cao điểm...",
         category: "Cập nhật",
         createdAt: "2 giờ trước",
         likes: 124,
@@ -51,13 +52,13 @@ const MOCK_BLOG_POSTS: BlogPost[] = [
             avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Support",
             role: "Support",
         },
-        title: "Hướng dẫn tối ưu chiến dịch Facebook Marketing 2025",
+        title: "Hướng dẫn tối ưu chiến dịch Facebook Marketing 2026",
         description:
-            "Xu hướng marketing trên Facebook đang thay đổi nhanh chóng. Bài viết này sẽ giúp bạn nắm bắt những chiến lược mới nhất để tăng tương tác và chuyển đổi cho doanh nghiệp...",
+            "Facebook tiếp tục thay đổi thuật toán phân phối nội dung. Bài viết này tổng hợp các chiến lược mới nhất giúp bạn tối ưu ngân sách, tăng tương tác và cải thiện tỷ lệ chuyển đổi...",
         category: "Hướng dẫn",
         createdAt: "1 ngày trước",
-        likes: 89,
-        comments: 25,
+        likes: 312,
+        comments: 47,
         isLiked: true,
         badge: "trending",
     },
@@ -68,19 +69,79 @@ const MOCK_BLOG_POSTS: BlogPost[] = [
             avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Marketing",
             role: "Marketing",
         },
+        title: "Case study: Tăng 220% lượt tiếp cận chỉ sau 7 ngày",
+        description:
+            "Đội ngũ marketing chia sẻ case study thực tế giúp một cửa hàng online tăng trưởng đột phá lượt tiếp cận và doanh thu nhờ tối ưu nội dung và quảng cáo...",
+        category: "Case Study",
+        createdAt: "3 ngày trước",
+        likes: 198,
+        comments: 29,
+        isLiked: false,
+        badge: "trending",
+    },
+    {
+        id: "4",
+        author: {
+            name: "System",
+            avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=System",
+            role: "System",
+        },
         title: "Thông báo bảo trì hệ thống định kỳ",
         description:
-            "Để nâng cao chất lượng dịch vụ, chúng tôi sẽ thực hiện bảo trì hệ thống vào 2h-4h sáng ngày 20/01/2026. Mọi dịch vụ sẽ tạm dừng trong thời gian này...",
+            "Hệ thống sẽ được bảo trì từ 02:00 – 04:00 sáng ngày 20/01/2026. Trong thời gian này, một số dịch vụ có thể tạm thời không khả dụng...",
         category: "Thông báo",
-        createdAt: "3 ngày trước",
+        createdAt: "5 ngày trước",
         likes: 45,
         comments: 8,
         isLiked: false,
     },
+    {
+        id: "5",
+        author: {
+            name: "Product Team",
+            avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Product",
+            role: "Product",
+        },
+        title: "Sắp ra mắt: Dashboard thống kê thế hệ mới",
+        description:
+            "Chúng tôi đang hoàn thiện dashboard mới với biểu đồ realtime, phân tích hành vi người dùng và khả năng tùy biến mạnh mẽ hơn...",
+        category: "Sản phẩm",
+        createdAt: "1 tuần trước",
+        likes: 276,
+        comments: 34,
+        isLiked: false,
+        badge: "new",
+    },
+    {
+        id: "6",
+        author: {
+            name: "Community Manager",
+            avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Community",
+            role: "Community",
+        },
+        title: "Cộng đồng đạt mốc 50.000 thành viên",
+        description:
+            "Cảm ơn sự đồng hành của tất cả người dùng. Cộng đồng của chúng ta đã chính thức chạm mốc 50.000 thành viên hoạt động trên nền tảng...",
+        category: "Cộng đồng",
+        createdAt: "2 tuần trước",
+        likes: 421,
+        comments: 96,
+        isLiked: false,
+        badge: "trending",
+    },
 ];
 
+const INITIAL_COUNT = 3;
+
 export default function HomeNewsFeed() {
+    const ALL_POSTS: BlogPost[] = MOCK_BLOG_POSTS;
+
     const [posts, setPosts] = useState<BlogPost[]>(MOCK_BLOG_POSTS);
+    const [visibleCount, setVisibleCount] = useState(INITIAL_COUNT);
+
+    const [isLoadingLoadMore, setIsLoadingLoadMore] = useState(false);
+
+    const visiblePosts = posts.slice(0, visibleCount);
 
     const handleLike = (postId: string) => {
         setPosts((prevPosts) =>
@@ -106,6 +167,15 @@ export default function HomeNewsFeed() {
         return "";
     };
 
+    const handleLoadMore = () => {
+        setIsLoadingLoadMore(true);
+
+        setTimeout(() => {
+            setVisibleCount((prev) => prev + 4);
+            setIsLoadingLoadMore(false);
+        }, 800);
+    };
+
     return (
         <div className="bg-white rounded shadow-sm border border-slate-200">
             {/* Header */}
@@ -124,7 +194,7 @@ export default function HomeNewsFeed() {
 
             {/* Blog Posts */}
             <div className="divide-y divide-gray-200">
-                {posts.map((post) => (
+                {visiblePosts.map((post) => (
                     <div
                         key={post.id}
                         className="p-6 hover:bg-gray-50/50 transition-all duration-200 group"
@@ -213,11 +283,25 @@ export default function HomeNewsFeed() {
             </div>
 
             {/* Footer */}
-            <div className="p-4 border-t border-gray-200 text-center">
-                <button className="text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors cursor-pointer">
-                    Tải thêm bài viết
-                </button>
-            </div>
+            {visibleCount < ALL_POSTS.length && (
+                <div className="p-4 border-t border-gray-200 text-center">
+                    <button
+                        onClick={handleLoadMore}
+                        disabled={isLoadingLoadMore}
+                        className="inline-flex items-center justify-center gap-2 text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors cursor-pointer disabled:cursor-not-allowed disabled:opacity-60"
+                    >
+                        {isLoadingLoadMore ? (
+                            <>
+                                <LoaderCircle className="w-5 h-5 animate-spin" />
+                                Đang tải...
+                            </>
+                        ) : (
+                            "Tải thêm bài viết"
+                        )}
+                    </button>
+                </div>
+            )}
+
         </div>
     );
 }
