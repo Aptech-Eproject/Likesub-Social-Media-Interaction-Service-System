@@ -58,7 +58,7 @@ function SystemAlertModal({
                         href="https://tuanori.vn/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="hover:underline cursor-pointer"
+                        className="hover:underline cursor-pointer text-blue-400"
                     >
                         TUANORI.VN
                     </a>{" "}
