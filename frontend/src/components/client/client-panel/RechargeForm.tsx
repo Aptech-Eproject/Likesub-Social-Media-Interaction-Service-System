@@ -1,6 +1,14 @@
 "use client";
-import { CircleDollarSign, HelpCircle, Landmark, Wallet, LoaderCircle } from "lucide-react";
+
 import React, { useMemo, useState, useEffect } from "react";
+
+import {
+    CircleDollarSign,
+    HelpCircle,
+    Landmark,
+    Wallet,
+    LoaderCircle
+} from "lucide-react";
 
 type Bank = {
     code: string;
