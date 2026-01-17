@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "../styles/global.css";
-import { SidebarProvider } from "@/contexts/shared/SidebarContext";
+import { SidebarProvider } from "@/contexts/common/SidebarContext";
 import { inter } from "@/font";
 
 export const runtime = 'edge';
