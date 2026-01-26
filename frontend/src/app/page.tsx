@@ -22,7 +22,6 @@ export default async function Home() {
       <Hero />
       <Benefits />
       <Faq />
-      <Services />
       <Feedback />
       <ServicesPricingCardModern />
       <Clients />
