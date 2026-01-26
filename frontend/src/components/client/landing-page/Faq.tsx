@@ -59,18 +59,18 @@ export default function Faq() {
             {features.map((feature, index) => (
               <div
                 key={index}
-                className={`bg-white border border-gray-200 rounded-lg p-3 hover:border-blue-400 transition-900 cursor-pointer group shadow-sm ${openIndex === index ? "border-blue-400" : ""}`}
+                className={`bg-white border border-gray-200 rounded-lg p-3 hover:border-blue-600 transition-900 cursor-pointer group shadow-sm ${openIndex === index ? "border-blue-400" : ""}`}
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
               >
                 <div className="flex items-center justify-between">
                   <span
-                    className={`font-medium text-gray-800 group-hover:text-blue-500 text-base ${openIndex === index ? "text-blue-500" : ""}`}
+                    className={`font-medium text-gray-800 group-hover:text-[#2563eb] text-base ${openIndex === index ? "text-blue-500" : ""}`}
                   >
                     {feature.title}
                   </span>
                   <ChevronRight
                     size={18}
-                    className={`text-gray-400 group-hover:text-blue-400 transition shrink-0 ${openIndex === index ? "rotate-90 text-blue-400" : ""}`}
+                    className={`text-gray-400 group-hover:text-[#2563eb] transition shrink-0 ${openIndex === index ? "rotate-90 text-blue-400" : ""}`}
                   />
                 </div>
                 {openIndex === index && (
