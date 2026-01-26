@@ -1,4 +1,4 @@
-import UserApi from '@/api/user.api';
+import UserApi, { User } from '@/api/user.api';
 import { QUERY_KEYS } from '@/constants/query/query-keys';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 
@@ -23,7 +23,7 @@ export const useUpdateProfile = () => {
     const queryClient = useQueryClient();
 
     return useMutation({
-        mutationFn: ({ userId, data }: { userId: string; data: any }) =>
+        mutationFn: ({ userId, data }: { userId: string; data: Partial<User> }) =>
             UserApi.updateProfile(userId, data),
         onMutate: async ({ userId, data }) => {
             // Cancel outgoing queries
@@ -33,7 +33,7 @@ export const useUpdateProfile = () => {
             const previousUser = queryClient.getQueryData(QUERY_KEYS.USERS.DETAIL(userId));
 
             // Optimistically update cache
-            queryClient.setQueryData(QUERY_KEYS.USERS.DETAIL(userId), (old: any) => ({
+            queryClient.setQueryData(QUERY_KEYS.USERS.DETAIL(userId), (old: User) => ({
                 ...old,
                 ...data,
             }));
