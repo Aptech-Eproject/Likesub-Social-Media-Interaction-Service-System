@@ -82,7 +82,7 @@ export default function Header() {
           </nav>
           <Link
             href="/home"
-            className="bg-[#2563eb]! hover:opacity-80 px-4 py-2.5 rounded-sm font-semibold shadow transition-all duration-300 text-xs text-white"
+            className="bg-[#1e40af]! hover:opacity-80 px-4 py-2.5 rounded-sm font-semibold shadow transition-all duration-300 text-xs text-white"
           >
             SỬ DỤNG NGAY
           </Link>

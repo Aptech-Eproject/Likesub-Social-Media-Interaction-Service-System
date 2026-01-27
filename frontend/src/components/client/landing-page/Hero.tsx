@@ -35,8 +35,8 @@ export default function Hero() {
           <div>
             <h1 className="text-5xl! font-extrabold text-gray-700 mb-6 leading-tight">
               <span className="block">
-                Bùng Nổ <span className="text-[#2563eb]">Tương Tác</span><br />
-                <span className="text-[#2563eb]">Nâng Tầm </span>
+                Bùng Nổ <span className="text-[#3b82f6]">Tương Tác</span><br />
+                <span className="text-[#3b82f6]">Nâng Tầm </span>
                 Thương Hiệu
               </span>
             </h1>
