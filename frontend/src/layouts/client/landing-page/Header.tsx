@@ -23,7 +23,7 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full bg-white/95 backdrop-blur z-50 transition-shadow duration-300 ${isScrolled ? "shadow-lg" : ""
+      className={`fixed top-0 left-0 w-full bg-white backdrop-blur z-50 transition-shadow duration-300 ${isScrolled ? "shadow-lg" : ""
         }`}
     >
       <div className="w-full bg-[#1e40af] h-8.5 text-white flex items-center justify-center gap-2">
@@ -81,8 +81,8 @@ export default function Header() {
             </Link>
           </nav>
           <Link
-            href="/home"
-            className="bg-[#2563eb]! hover:opacity-80 px-4 py-2.5 rounded-sm font-semibold shadow transition-all duration-300 text-xs text-white"
+            href="/login"
+            className="bg-[#1e40af]! hover:opacity-80 px-4 py-2.5 rounded-sm font-semibold shadow transition-all duration-300 text-xs text-white"
           >
             SỬ DỤNG NGAY
           </Link>

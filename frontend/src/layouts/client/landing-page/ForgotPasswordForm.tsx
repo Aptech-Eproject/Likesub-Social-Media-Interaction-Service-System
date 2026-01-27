@@ -22,7 +22,7 @@ import { useRouter } from "next/navigation";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { registerStep1Schema } from "@/schemas/auth/register-step-1.schema";
 
-export default function RegistersForm() {
+export default function ForgotPasswordForm() {
     const router = useRouter();
     const [registerBy, setRegisterBy] = useState<"email" | "phone">("email");
 
@@ -43,32 +43,12 @@ export default function RegistersForm() {
             {/* Form Header */}
             <CardHeader>
                 <CardTitle className="text-[26px] font-semibold text-black">
-                    Đăng nhập hoặc đăng ký
+                    Quên mật khẩu
                 </CardTitle>
                 <CardDescription className="text-slate-400">
-                    Vui lòng nhập thông tin tài khoản để tiếp tục
+                    Vui lòng nhập thông tin tài khoản để đặt lại mật khẩu
                 </CardDescription>
             </CardHeader>
-
-            {/* Navigate Form */}
-            <div className="pt-6 w-full flex items-center justify-start gap-8 border-b border-gray-200">
-                <button
-                    onClick={() => router.push("/login")}
-                    className="pb-4 cursor-pointer"
-                >
-                    <span className="text-gray-400 font-medium text-[15px]! hover:text-gray-600 transition-colors duration-300 cursor-pointer">
-                        Đăng nhập
-                    </span>
-                </button>
-                <button
-                    onClick={() => router.push("/register")}
-                    className="pb-4 border-b-2 border-[#3B82F6] cursor-pointer"
-                >
-                    <span className="text-[#3B82F6] font-medium text-[15px]! cursor-pointer">
-                        Đăng ký
-                    </span>
-                </button>
-            </div>
 
             {/* Form Content */}
             <CardContent>
@@ -106,8 +86,8 @@ export default function RegistersForm() {
                                 className="text-[#3B82f6] hover:underline text-sm! cursor-pointer"
                             >
                                 {registerBy === "email"
-                                    ? "Đăng ký bằng số điện thoại"
-                                    : "Đăng ký bằng email"}
+                                    ? "Xác minh bằng số điện thoại"
+                                    : "Xác minh bằng email"}
                             </button>
                         </div>
                     </FieldGroup>
@@ -122,7 +102,7 @@ export default function RegistersForm() {
                         form="register-step1-form"
                         className="w-full bg-[#1e40af] hover:bg-blue-700 text-white py-4! font-semibold rounded-full shadow-sm transition-colors duration-300 cursor-pointer"
                     >
-                        Đăng ký
+                        Xác minh
                     </button>
                 </div>
             </CardFooter>
