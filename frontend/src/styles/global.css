@@ -63,7 +63,6 @@ body {
 
 @utility no-scrollbar {
   &::-webkit-scrollbar {
-    /* Chrome, Safari and Opera */
     display: none;
   }
 

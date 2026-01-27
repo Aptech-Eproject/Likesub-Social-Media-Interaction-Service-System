@@ -29,14 +29,14 @@ export default function Hero() {
   ];
 
   return (
-    <section className="pt-40 min-h-screen relative">
+    <section className="pt-40 min-h-screen relative bg-white">
       <div className="flex flex-col text-center items-center max-w-7xl mx-auto px-6 gap-12">
         <div className="md:w-175 w-full">
           <div>
             <h1 className="text-5xl! font-extrabold text-gray-700 mb-6 leading-tight">
               <span className="block">
-                Bùng Nổ <span className="text-[#3b82f6]">Tương Tác</span><br />
-                <span className="text-[#3b82f6]">Nâng Tầm </span>
+                Bùng Nổ <span className="text-indigo-600">Tương Tác</span><br />
+                <span className="text-indigo-600">Nâng Tầm </span>
                 Thương Hiệu
               </span>
             </h1>
@@ -76,7 +76,6 @@ export default function Hero() {
           viewBox="0 0 1440 320"
           preserveAspectRatio="none"
         >
-          {/* Wave thứ nhất */}
           <path
             fill="#1e40af"
             fillOpacity="0.5"
@@ -92,8 +91,6 @@ export default function Hero() {
                 M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,138.7C960,139,1056,117,1152,106.7C1248,96,1344,96,1392,96L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
             />
           </path>
-
-          {/* Wave thứ hai */}
           <path
             fill="#1e40af"
             fillOpacity="0.7"
@@ -109,8 +106,6 @@ export default function Hero() {
                 M0,192L48,186.7C96,181,192,171,288,170.7C384,171,480,181,576,170.7C672,160,768,128,864,128C960,128,1056,160,1152,165.3C1248,171,1344,149,1392,138.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
             />
           </path>
-
-          {/* Wave thứ ba */}
           <path
             fill="#1e40af"
             fillOpacity="1"
